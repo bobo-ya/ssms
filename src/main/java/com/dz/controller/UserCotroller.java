@@ -21,8 +21,7 @@ public class UserCotroller {
     @Autowired
     private UserService userService;
 
-
-    //普通分页
+    
     @ApiOperation(value = "用户列表")
     @RequestMapping("findByPage")
     public List<User> findByPage(){
